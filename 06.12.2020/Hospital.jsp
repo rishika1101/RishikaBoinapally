@@ -1,0 +1,34 @@
+<web-app>
+  <servlet>  
+<servlet-name>first</servlet-name>  
+<servlet-class>com.jnit.EmployeeRegistration</servlet-class>  
+</servlet>  
+  <servlet-mapping>  
+<servlet-name>first</servlet-name>  
+<url-pattern>/emploee_registration</url-pattern>  
+</servlet-mapping>  
+   <servlet>  
+<servlet-name>second</servlet-name>  
+<servlet-class>com.jnit.EmployeeLogin</servlet-class>  
+</servlet>  
+  <servlet-mapping>  
+<servlet-name>second</servlet-name>  
+<url-pattern>/emploee_login</url-pattern>  
+</servlet-mapping>
+<servlet>  
+<servlet-name>third</servlet-name>  
+<servlet-class>com.jnit.ManagerRegistration</servlet-class>  
+</servlet>  
+  <servlet-mapping>  
+<servlet-name>third</servlet-name>  
+<url-pattern>/manager_registration</url-pattern>  
+</servlet-mapping>  
+   <servlet>  
+<servlet-name>fourth</servlet-name>  
+<servlet-class>com.jnit.ManagerLogin</servlet-class>  
+</servlet>
+<servlet-mapping>  
+<servlet-name>fourth</servlet-name>  
+<url-pattern>/manager_login</url-pattern>  
+</servlet-mapping>
+</web-app>  
