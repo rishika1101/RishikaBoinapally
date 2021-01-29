@@ -1,0 +1,90 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Selectbox</title>
+            <style>
+                h1 {
+                    color:orange;
+                    font-weight:bolder;
+                     font-style:oblique;
+                     text-align:center;
+                }
+
+        div {
+            text-align:center;
+            border:2px blue;
+            padding-top:9%;
+            padding-bottom:9%;
+            margin-left:15%;
+            margin-right:15%;
+            background-color:pink;
+        }
+
+        select {
+            background-color:cornsilk;
+            padding:2%;
+        
+        }
+         
+         option {
+             color:gold;
+             font-weight:bolder;
+
+         }
+
+         label {
+             font-style: oblique;
+             font-size: large;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             font-weight: bolder;
+
+         }
+        
+        button {
+             background-color: indianred;
+             padding-top: 5%;
+             padding-bottom: 5%;
+             padding-left: 2%;
+             padding-right: 2%;
+             border-radius: 10%;
+             color: white;
+
+      
+        }
+
+      </style>
+ </head>
+      
+<body>
+    <h1>SelectBox</h1><br><br>
+    <div>
+        <label>Country</label><br><br>
+        <select name="country">
+            <label>State</label>
+            <option value="India">India</option>
+            </select><br><br>
+        <label>State</label><br><br>
+        <select name="state">
+            <optgroup label="India">
+                <option value="Telengana">Telengana</option>
+                <option value="AndhraPradesh">AndhraPradesh</option>
+                <option value="TamilNadu">TamilNadu</option>
+            </optgroup>
+            </optgroup>
+        </select>
+        <br><br>
+        <label>City</label><br><br>
+        <select name="city">
+            <optgroup label="Telengana">
+                <option value="Hyderabad">Hyderabad</option>
+                <optgroup label="AndhraPradesh"></optgroup>
+                <option value="Vijayawada">Vijayawada</option>
+                <optgroup label="TamilNadu"></optgroup>
+                <option value="Chennai">chennai</option>
+            </optgroup>
+        </select>
+        <br><br><br><br>
+        <button>Submit</button>
+    </div>
+</body>
+</html>

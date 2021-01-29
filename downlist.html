@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <title>Downlist</title>
+    <style>
+        button {
+          background-color:brown;
+          color:cadetblue;
+            
+             }
+       h1 {
+        text-align: center;
+            color: blue;
+            font-weight: bolder;
+            font-style:oblique;
+        }
+
+        div {
+            text-align: center;
+            border: 2px greenyellow;
+            padding-top:9%;
+            padding-bottom:9%;
+            padding-left:20%;
+            padding-right:20%;
+        }
+
+        label {
+            font-style: oblique;
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Automatic Suggestion Dropdown Box</h1><br><br>
+    <div>
+        <label>Vehicles:</label><br><br>
+        <input list="vehicles" name="vehicles">
+        <datalist id="Vehicles">
+            <option value="Car">car</option>
+            <option value="Bike">Bike</option>
+            <option value="Auto">Auto</option>
+            <option value="Scooty">Scooty</option>    
+        </datalist><br><br>
+        <button>Sbumit</button>
+    </div>
+
+</body>
+</html>
